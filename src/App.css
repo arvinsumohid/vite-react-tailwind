@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+
+.header {
+  @apply py-6 w-11/12 mx-auto flex justify-between items-center;
+
+  &__menu {
+    @apply flex;
+  }
+
+  &__menu-item {
+    @apply text-white uppercase px-5;
+  }
+}
